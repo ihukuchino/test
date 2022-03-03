@@ -3,6 +3,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react'
 import { useFileUpload } from "use-file-upload";
+import { PhotoPicker } from 'aws-amplify-react';
+import { Storage, Auth } from 'aws-amplify';
 
 const defaultSrc =
     "https://www.pngkit.com/png/full/301-3012694_account-user-profile-avatar-comments-fa-user-circle.png";

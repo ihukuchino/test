@@ -1,0 +1,14 @@
+{
+  "resourceName": "customerimage",
+  "policyUUID": "94ad02a4",
+  "bucketName": "customer-image-bucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Triggerecfeaf7f",
+  "groupAccess": {}
+}
